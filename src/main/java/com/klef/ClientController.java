@@ -16,7 +16,17 @@ public class ClientController
 	public String demo()
 	{
 		return "Jenkins Demo";
+		
 	}
+	
+	@GetMapping("/test")
+	public String test()
+	{
+		return "Deploy Spring Boot Using Jenkins";
+		
+	}
+	
+	
 	
 	
 
